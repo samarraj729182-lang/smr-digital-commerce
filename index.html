@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMR Digital Commerce</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b0f19;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 7%;
+            background: #111827;
+            border-bottom: 1px solid #263044;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #ddd;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .hero {
+            min-height: 520px;
+            display: flex;
+            align-items: center;
+            padding: 70px 7%;
+            background: linear-gradient(135deg, #111827, #172554);
+        }
+
+        .hero-content {
+            max-width: 750px;
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #60a5fa;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #cbd5e1;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            .secondary-btn {
+    background: transparent;
+    border: 1px solid #60a5fa;
+    margin-left: 12px;
+}
+            display: inline-block;
+            padding: 14px 25px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 70px 7%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 45px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            background: #111827;
+            padding: 30px;
+            border: 1px solid #263044;
+            border-radius: 12px;
+        }
+
+        .card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #aeb8ca;
+            line-height: 1.6;
+        }
+
+        .contact {
+            text-align: center;
+            background: #111827;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #94a3b8;
+            background: #080c14;
+        }
+
+        @media (max-width: 800px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">SMR Digital Commerce</div>
+
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+<h1>
+    E-commerce & Digital Solutions
+    <span>That Help Your Business Grow</span>
+</h1>
+
+<p>
+    We help brands and businesses build better online
+    presence with marketplace listings, A+ content,
+    product creatives, catalog management and digital solutions.
+</p>
+
+<a href="#services" class="btn">View Our Services</a>
+<a href="#contact" class="btn secondary-btn">Get a Free Quote</a>
+        </div>
+
+    </section>
+
+    <section id="services">
+        <h2 class="section-title">Our Services</h2>
+
+<div class="services">
+
+    <div class="card">
+    <h3>🛒 E-commerce Marketplace</h3>
+
+    <p>
+        Amazon, Flipkart and Meesho services including
+        product listings, catalog creation, marketplace
+        content and product data management.
+    </p>
+
+    <a href="ecommerce.html" class="btn">
+        View E-commerce Services
+    </a>
+</div>
+
+    <div class="card">
+        <h3>✍️ E-commerce Content</h3>
+        <p>
+            Professional product titles, bullet points,
+            descriptions, search keywords, A+ Content
+            and marketplace-ready product content.
+        </p>
+        <a href="#contact" class="btn">
+    Get a Quote
+</a>
+    </div>
+
+   <div class="card">
+    <a href="creative-design.html" style="text-decoration:none; color:inherit;">
+        <h3>🎨 Product Creative Design</h3>
+        <p>
+            Product images, infographics, banners, A+ graphics,
+            promotional creatives and marketplace visuals.
+        </p>
+    </a>
+</div>
+
+    <div class="card">
+    <a href="product-video.html" style="text-decoration:none; color:inherit;">
+        <h3>🎬 Product Video Content</h3>
+        <p>
+            Product videos, promotional videos and short
+            visual content designed to present products clearly.
+        </p>
+    </a>
+</div>
+
+    <div class="card">
+    <a href="catalog-management.html" style="text-decoration:none; color:inherit;">
+        <h3>📦 Catalog Management</h3>
+        <p>
+            Product data management, catalog updates,
+            content organization and marketplace support
+            for growing online businesses.
+        </p>
+    </a>
+</div>
+
+    <div class="card">
+    <a href="digital-business.html" style="text-decoration:none; color:inherit;">
+        <h3>🌐 Digital Business Setup</h3>
+        <p>
+            Business websites, WhatsApp catalogs, Google
+            Business Profile, Instagram setup and digital
+            presence solutions.
+        </p>
+    </a>
+</div>
+
+</div>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About SMR Digital Commerce</h2>
+
+        <div class="card">
+            <p>
+                SMR Digital Commerce helps businesses improve
+                their online presence through e-commerce,
+                design and digital business solutions.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Let's Work Together</h2>
+
+        <p style="margin-bottom: 25px;">
+            Need help with your e-commerce business?
+        </p>
+
+        <a href="https://wa.me/917291827970?text=Hello%20SMR%20Digital%20Commerce,%20I%20want%20to%20know%20more%20about%20your%20services." target="_blank" class="btn">
+    Contact Us on WhatsApp
+</a>
+    </section>
+
+    <footer>
+        © 2026 SMR Digital Commerce. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
